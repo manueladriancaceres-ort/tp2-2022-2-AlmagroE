@@ -1,7 +1,1 @@
 console.log("Codigo principal");
-
-
-
-
-
-
