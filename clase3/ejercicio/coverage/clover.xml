@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1661383613766" clover="3.2.0">
-  <project timestamp="1661383613766" name="All files">
-    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="7" coveredelements="7" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
-    <file name="Factura.js" path="C:\Users\Agustin\Desktop\git\tp2-2022-2-AlmagroE\clase3\ejercicio\src\models\Factura.js">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-    </file>
+<coverage generated="1661390487167" clover="3.2.0">
+  <project timestamp="1661390487167" name="All files">
+    <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6" elements="16" coveredelements="15" complexity="0" loc="9" ncloc="9" packages="2" files="2" classes="2"/>
+    <package name="models">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="Factura.js" path="C:\Users\Agustin\Desktop\git\tp2-2022-2-AlmagroE\clase3\ejercicio\src\models\Factura.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="service">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="FileUtil.js" path="C:\Users\Agustin\Desktop\git\tp2-2022-2-AlmagroE\clase3\ejercicio\src\service\FileUtil.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

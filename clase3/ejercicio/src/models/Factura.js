@@ -13,6 +13,9 @@ class Factura
     return this.item.reduce((suma,item) => suma + item,0);
 }
 
+verDiferencia() {
+    return this.importe- this.calcularTotalesDeItems() !== 0 ;
+}
 
 }
 
