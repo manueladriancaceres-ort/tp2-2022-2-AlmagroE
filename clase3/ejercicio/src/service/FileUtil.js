@@ -7,11 +7,11 @@ class FileUtil  {
     }
 
     leer() {
-        return fs.readFileSync(this.archivo);
-    }
-
-    escribir() {
-
+        try {
+            return fs.readFileSync(this.archivo,'utf-8');
+        } catch (error) {
+            throw 'no se encontro el archivo';
+        }
     }
 
 
