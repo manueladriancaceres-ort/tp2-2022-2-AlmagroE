@@ -5,9 +5,7 @@ class FacturaProceso {
     }
 
     verificarFactura() {
-        respuesta = this.listaFacturas.filter(
-            factura => 
-        );
-        return respuesta
+        const rta = [];
+        return rta;
     }
 }
