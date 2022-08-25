@@ -9,6 +9,11 @@ class Factura {
     calcularTotalesDeItems() {
         return this.items.reduce((sum,item) => sum+item,0);
     }
+
+    hayDiferencia() {
+        return this.importe-this.calcularTotalesDeItems() !== 0 ;
+    }
+
 }
 
 export default Factura;
