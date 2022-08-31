@@ -5,7 +5,7 @@ const fileUtil = new FileUtil('./resource/facturas.json');
 const lista = JSON.parse(fileUtil.leer());
 
 const facturaProceso = new FacturaProceso(lista);
-console.log(facturaProceso.verificarFactura());
+console.log(facturaProceso.facturasConDiferencia());
 
 //const facturaProceso = new FacturaProceso(lista);
 //console.log(`las facturas con diferencia son ${facturaProceso.verificarFactura()}`);

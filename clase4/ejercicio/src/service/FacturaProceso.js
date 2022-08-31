@@ -7,7 +7,7 @@ class FacturaProceso {
         this.listaFacturas = listaFacturas;
     }
 
-    verificarFactura() {
+    facturasConDiferencia() {
         const rta = this.listaFacturas.filter(
             factura => { 
                 const fa = new Factura(factura.codigo,factura.importe,factura.items) ;
