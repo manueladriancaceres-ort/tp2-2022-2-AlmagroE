@@ -1,0 +1,20 @@
+Temas del 31/8
+
+Repaso de temas anteriores
+	Construcción de un proyecto
+	Creación de clases
+	
+
+Funciones y Callbacks
+Asincronico
+Promesas
+Manejo de Archivos con callbacks
+Manejo de Archivos con promesas
+
+Break
+
+21:30 Ejercicio en grupo, con archivos sincrónicos.
+
+
+
+
