@@ -1,0 +1,12 @@
+Temas de la clase
+
+	Repaso de promesas y call back
+	
+	Type Script
+	Patron de diseño dao
+	
+
+Ejercicio en grupo
+
+Cierre
+	
