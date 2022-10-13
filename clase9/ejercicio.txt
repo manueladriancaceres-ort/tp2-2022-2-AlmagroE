@@ -1,0 +1,3 @@
+Realizar un crud de productos con este ejemplo de estructura:
+
+{id: 100, nombre: "Tele", importe: 100000 }
