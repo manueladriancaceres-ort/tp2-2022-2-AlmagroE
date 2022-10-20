@@ -1,9 +1,28 @@
 console.log("Sistema");
+import express from 'express';
+import cors from 'cors';
+import bodyParser from 'body-parser';
+import ProductoRouter from './router/ProductoRouter.js';
+const app = express();
+app.use(cors());
+app.use(bodyParser.json());
+new ProductoRouter(app, "/api/productos");
+app.get('/api/ping', (req, res) => {
+    res.send('pong');
+});
+app.listen(3001, () => {
+    console.log('Sistema en escuchando en puerto 3001');
+});
+/*
 import { ProductoDaoMongoDb } from "./repository/ProductoDaoMongoDb.js";
-const productoDaoMongoDb = new ProductoDaoMongoDb();
+import Producto from "./models/Producto.js";
+
+const productoDaoMongoDb : ProductoDaoMongoDb = new ProductoDaoMongoDb();
+
 //const producto: Producto = new Producto(1,"Tele",120000);
 //await productoDaoMongoDb.add(producto);
 console.log(await productoDaoMongoDb.findAll());
+*/
 /*
 import {ClienteDaoMongoDb} from './repository/ClientesDaoMongoDb.js'
 import Cliente from './models/Cliente.js'

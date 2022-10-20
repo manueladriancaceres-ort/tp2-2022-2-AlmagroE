@@ -1,0 +1,7 @@
+Temas del 12/10/2022
+
+	Repaso concepto DAO
+	Crud con mongo db
+	Crud con mysql
+
+Ejercicio en grupo
